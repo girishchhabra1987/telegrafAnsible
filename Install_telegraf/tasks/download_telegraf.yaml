@@ -1,0 +1,5 @@
+- name: download telegraf
+  get_url:
+    url: https://dl.influxdata.com/telegraf/releases/telegraf-1.12.6-1.x86_64.rpm
+    dest: /root/
+    mode: '0440'

@@ -1,0 +1,4 @@
+- name: install telegraf
+  yum:
+     name: /root/telegraf-1.12.6-1.x86_64.rpm
+     state: present

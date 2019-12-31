@@ -1,0 +1,5 @@
+-
+  name: Install and start telegraf
+  hosts: telegraf_nodes
+  roles:
+    - Install_telegraf
